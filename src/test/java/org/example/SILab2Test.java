@@ -20,7 +20,9 @@ class SILab2Test {
         //Null name
         User UserNullName = new User(null, "goce123", "goceoh@hotmail.com");
         assertFalse(SILab2.function(UserNullName, allUsers));
-        //
+        //Full User
+        User fullUser = nUser("pece","peciobitola","pece.bt@hotmail.com");
+        assertFalse(SILab2.function(fullUser, allUsers));
         System.out.println("Every branch conditions test finished");
 
 
