@@ -18,9 +18,9 @@ class SILab2Test {
         assertTrue(re.getMessage().contains("Mandatory information missing!"));
 
         //Null name
-        User userWithNullName = new User(null, "goce123", "goceoh@hotmail.com");
-        assertFalse(SILab2.function(userWithNullName, allUsers));
-
+        User UserNullName = new User(null, "goce123", "goceoh@hotmail.com");
+        assertFalse(SILab2.function(UserNullName, allUsers));
+        //
         System.out.println("Every branch conditions test finished");
 
 
