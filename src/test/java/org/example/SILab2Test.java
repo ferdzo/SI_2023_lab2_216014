@@ -21,6 +21,7 @@ class SILab2Test {
         User userWithNullName = new User(null, "goce123", "goceoh@hotmail.com");
         assertFalse(SILab2.function(userWithNullName, allUsers));
 
+        System.out.println("Every branch conditions test finished");
 
 
 
